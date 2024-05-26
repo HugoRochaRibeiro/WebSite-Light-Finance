@@ -140,3 +140,18 @@ nav ul a:hover::after{
     background-color: white;
     box-shadow: 0 0 30px rgba(28, 95, 177, 0.8);
 }
+.footer{
+    background-color: #4f9bf9;
+    text-align: center;
+}
+.footer i{
+    color: #4f9bf9;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.footer p{
+    margin-top: 10px;
+}
