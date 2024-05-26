@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website Light Finance</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- header on-->
+    <header style="background-image: url('img/background-home.jpg')">
+        <!-- conteiner on-->
+        <div class="conteiner">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="btn animate-btn" href="contato.html">Contato</a>
+                </ul>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Light Finance</h1>
+                    <p>Planeje o futuro dos seus sonhos conosco!</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+        <!-- conteiner off-->
+    </header>
+    <!-- header off-->
+    <section class="faca-mais">
+        <!-- conteiner on -->
+        <div class="conteiner">
+            <div class="faca-mais-text">
+                <h3>Seja mais leve com Light Finance</h3>
+                <p>
+                    Queremos te ajudar a ter um controle melhor sobre suas finanças,
+                    de maneira pratida e didatica!
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/img-1.png" alt="">
+            </div>
+        </div>
+        <!-- conteiner off -->
+
+    </section>
+
+    <section class="faca-mais">
+        <!-- conteiner on -->
+        <div class="conteiner">
+            <div class="faca-mais-img">
+                <img src="img/img-2.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Ter controle sobre seus gastos nunca foi tão palpável</h3>
+                <p>
+                    Agora, com a ajuda de nossa empresa, ter o controle e estabilidade
+                    em sua carteira é algo simples e fácil! 
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+        </div>
+        <!-- conteiner off -->
+    </section>
+    <!--end faça mais-->
+    <section class="importar-dados">
+        <div class="conteiner">
+            <div class="arquivo">
+                <h1>Faça o Upload dos seus dados aqui!</h1>
+                <input type="file" id="input" accept=".xlsx,.xls" />
+            </div>
+            <div class="grafico" id="chartContainer">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+        <!-- Adicionando o script JavaScript -->
+        <script src="js/script.js"></script>
+
+    </section>
+</body>
+</html>
